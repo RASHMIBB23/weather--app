@@ -1,0 +1,45 @@
+/* Universal selector - applies to ALL elements */
+* {
+  margin: 0; /* Removes default margin from all elements */
+  padding: 0; /* Removes default padding from all elements */
+  font-family: "Poppins", sans-serif; /* Sets font for entire page */
+  box-sizing: border-box; /* Makes width/height include padding and border */
+}
+
+/* Styles for the entire page body */
+body {
+  background: #2b2b2b; /* Dark gray background color for the page */
+  display: flex; /* Activates flexbox layout */
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  min-height: 100vh; /* Makes body at least full viewport height (100% of screen) */
+}
+
+/* Styles for the weather card container */
+.weather-card {
+  width: 90%; /* Card takes 90% of parent width */
+  max-width: 470px; /* Maximum width 470px */
+  background: linear-gradient(
+    135deg,
+    #00feba,
+    #5b548a
+  ); /* Gradient from green to purple */
+  color: #fff; /* White text color */
+  margin: 100px auto 0; /* 100px from top, centered horizontally, 0 from bottom */
+  border-radius: 20px; /* Rounded corners */
+  padding: 40px 35px; /* Padding: 40px top/bottom, 35px left/right */
+  text-align: center; /* Centers text inside the card */
+  /* Space inside the card (all sides) */
+}
+
+/* Styles for the search bar wrapper */
+
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* Styles for the input field */
+
+/* Styles for the icon image inside button */
