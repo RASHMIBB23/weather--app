@@ -69,7 +69,7 @@ button:hover {
   white-space: nowrap;
   display: flex;
   justify-content: space-between;
-}
+
 
 .hourly-item {
   flex: 0 0 auto;
